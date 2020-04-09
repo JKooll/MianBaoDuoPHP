@@ -1,0 +1,20 @@
+{
+    "name": "jkooll/mian-bao-duo-php",
+    "description": "面包多SDK。",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JKol",
+            "email": "jerryzhao1212@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MianBaoDuoPHP\\": "src/"
+        }
+    }
+}
