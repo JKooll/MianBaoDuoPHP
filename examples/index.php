@@ -4,7 +4,7 @@ require_once('../vendor/autoload.php');
 use MianBaoDuoPHP\App;
 
 $app = new App([
-  'developer_key' => '24380:1jH5t8:YYZvFhwztscz1DQyO1sI_L-aYIA'
+  'developer_key' => 'your_developer_key'
 ]);
 
 // $orderDetail = $app->orderDetail('5e7eaff5783268812a9134b598d171a2');
