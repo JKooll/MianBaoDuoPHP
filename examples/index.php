@@ -7,29 +7,29 @@ $app = new App([
   'developer_key' => 'your_developer_key'
 ]);
 
-// $orderDetail = $app->orderDetail('5e7eaff5783268812a9134b598d171a2');
-// var_dump($orderDetail);
+$orderDetail = $app->orderDetail('your_order_code');
+var_dump($orderDetail);
 
-// $messageSettings = $app->messageSettings();
-// var_dump($messageSettings);
+$messageSettings = $app->messageSettings();
+var_dump($messageSettings);
 
-// $productChart = $app->productChart('ZJ6VmQ==');
-// var_dump($productChart);
+$productChart = $app->productChart('your_urlkey');
+var_dump($productChart);
 
-// $productDetail = $app->productDetail('Y56Vkw==');
-// var_dump($productDetail);
+$productDetail = $app->productDetail('your_urlkey);
+var_dump($productDetail);
 
-// $orderList = $app->orderList();
-// var_dump($orderList);
+$orderList = $app->orderList();
+var_dump($orderList);
 
-// $unreadMentions = $app->unreadMentions();
-// var_dump($unreadMentions);
+$unreadMentions = $app->unreadMentions();
+var_dump($unreadMentions);
 
-// $productList = $app->productList();
-// var_dump($productList);
+$productList = $app->productList();
+var_dump($productList);
 
-// $createDiscount = $app->createDiscount('Y56Vkw==', 0.2);
-// var_dump($createDiscount);
+$createDiscount = $app->createDiscount('your_urlkey', your_rate);
+var_dump($createDiscount);
 
-// $setUserInfo = $app->setUserInfo("个人开发者", 'JKol', 1);
-// var_dump($setUserInfo);
+$setUserInfo = $app->setUserInfo("your_brief", 'your_nickname', your_post_setting);
+var_dump($setUserInfo);
